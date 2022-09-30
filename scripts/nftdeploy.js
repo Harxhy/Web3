@@ -18,7 +18,7 @@ so nftContract here is a factory for instances of our GameItem contract.
   console.log("NFT Contract Address:", deployedNFTContract.address);
 }
 
-// Call the main function and catch if there is any error
+// Call the main function and catch if there is any errors
 main()
   .then(() => process.exit(0))
   .catch((error) => {
